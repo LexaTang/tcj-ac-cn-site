@@ -1,0 +1,10 @@
+@tailwind base;
+
+.tcj-ac {
+    & .home-bg {
+        background-image: url("bg.svg");
+        background-size: cover;
+        height: 100vw;
+        @apply landscape:h-screen;
+    }
+}

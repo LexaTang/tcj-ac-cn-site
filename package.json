@@ -1,0 +1,86 @@
+{
+  "name": "lexa-site",
+  "version": "0.0.1",
+  "description": "Lexa Tang's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --mode development",
+    "build": "webpack --mode=production --node-env=production",
+    "analyse": "webpack --mode=production --node-env=production --env WEBPACK_ANALYSE=true",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js,ts,tsx src test",
+    "lint:css": "stylelint **/*.{html,vue,css,sass,scss,less}",
+    "test": "jest",
+    "build:dev": "webpmck --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "author": "lexatang",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "core-js": "^3.15.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dev-utils": "^11.0.4",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.12.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "autoprefixer": "^10.3.5",
+    "babel-jest": "^27.0.2",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react-app": "^10.0.0",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-webpack-plugin": "^2.5.4",
+    "html-webpack-plugin": "~5.3.1",
+    "jest": "^27.0.4",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.3.7",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.1.1",
+    "postcss-nesting": "^8.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "react-test-renderer": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-webpack-plugin": "^2.2.2",
+    "terser-webpack-plugin": "^5.2.4",
+    "typescript": "^4.3.2",
+    "webpack": "^5.0.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.0.0"
+  },
+  "lint-staged": {
+    "*.{html,vue,css,sass,scss,less}": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "chrome 53"
+    ],
+    "development": [
+      "chrome 53"
+    ]
+  }
+}

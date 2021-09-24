@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "es2019"
+    ],
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "noEmit": true,
+    "module": "esnext",
+    "target": "ES5",
+    "jsx": "react",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  }
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg5"
+   shape-rendering="crispEdges"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="bg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="false"
+     borderlayer="false"
+     inkscape:showpageshadow="true"
+     inkscape:zoom="0.5403299"
+     inkscape:cx="-828.19774"
+     inkscape:cy="917.03235"
+     inkscape:window-width="3840"
+     inkscape:window-height="2075"
+     inkscape:window-x="1440"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="76.300001"
+       y="467.66111"
+       width="884.42038"
+       height="1051.8275"
+       id="rect4338" />
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect31"
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.249976;fill-opacity:1"
+       d="M 0,0 285.75,285.75 H 0 Z"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.43451899,0,0,0.43451899,-54.345061,-216.17254)"
+       id="text4336"
+       style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4338);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="76.300781"
+         y="1137.6605"
+         id="tspan28628"><tspan
+           style="fill:#ffffff"
+           id="tspan28626">L</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:50.8px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="38.071835"
+       y="179.92792"
+       id="text3510"><tspan
+         sodipodi:role="line"
+         id="tspan3508"
+         style="font-size:50.8px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="38.071835"
+         y="179.92792">e</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:232.994px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.82486"
+       x="-200.95737"
+       y="-13.141727"
+       id="text24436"
+       transform="scale(-1)"><tspan
+         sodipodi:role="line"
+         id="tspan24434"
+         style="stroke-width:5.82486"
+         x="-200.95737"
+         y="-13.141727">A</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="图层 2"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:334.132px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.35331"
+       x="49.665657"
+       y="273.79694"
+       id="text13432"><tspan
+         sodipodi:role="line"
+         id="tspan13430"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:8.35331"
+         x="49.665657"
+         y="273.79694">x</tspan></text>
+  </g>
+</svg>
