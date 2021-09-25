@@ -6,5 +6,24 @@
         background-size: auto 100%;
         background-repeat: no-repeat;
         @apply h-vw wide:w-3/4 wide:mx-auto landscape:h-screen;
+
+        & .home-title {
+            padding-top: 35%;
+            padding-left: 60%;
+            height: 100vw;
+            @media screen and (orientation: landscape) {
+                padding-top: 10vh;
+                height: auto;
+            }
+            @apply font-sans text-4xl sm:text-7xl;
+        }
+
+        & .home-description {
+            @media screen and (orientation: landscape) {
+                margin-left: 80vh;
+                height: auto;
+            }
+            @apply font-sans mt-8
+        }
     }
 }

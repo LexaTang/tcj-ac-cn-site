@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        vw: '100',
+        vw: '100vw',
       },
       screens: {
-        'wide': {'raw': '(min-aspect-ratio: 2/1)'},
+        'wide': {'raw': '(min-aspect-ratio: 21/9)'},
         'landscape': {'raw': '(orientation: landscape)'},
       },
     },
