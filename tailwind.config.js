@@ -3,8 +3,12 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      height: {
+        vw: '100',
+      },
       screens: {
-        'landscape': {'raw': '(orientation: landscape)'}
+        'wide': {'raw': '(min-aspect-ratio: 2/1)'},
+        'landscape': {'raw': '(orientation: landscape)'},
       },
     },
   },

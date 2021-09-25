@@ -3,8 +3,8 @@
 .tcj-ac {
     & .home-bg {
         background-image: url("bg.svg");
-        background-size: cover;
-        height: 100vw;
-        @apply landscape:h-screen;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        @apply h-vw wide:w-3/4 wide:mx-auto landscape:h-screen;
     }
 }
