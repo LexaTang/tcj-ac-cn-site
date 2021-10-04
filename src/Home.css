@@ -3,27 +3,29 @@
 .tcj-ac {
     & .home-bg {
         background-image: url("bg.svg");
-        background-size: auto 100%;
+        //background-size: 100vw 100vw;
+        background-position: top left;
         background-repeat: no-repeat;
-        @apply h-vw wide:w-3/4 wide:mx-auto landscape:h-screen;
+        width: 100vw;
+        @apply bg-vw wide:w-3/4 wide:mx-auto landscape:h-screen landscape:bg-vh;
+    }
 
-        & .home-title {
-            padding-top: 35%;
-            padding-left: 60%;
-            height: 100vw;
-            @media screen and (orientation: landscape) {
-                padding-top: 10vh;
-                height: auto;
-            }
-            @apply font-sans text-4xl sm:text-7xl;
+    & .home-title {
+        padding-top: 35%;
+        padding-left: 60%;
+        height: 100vw;
+        @media screen and (orientation: landscape) {
+            padding-top: 10vh;
+            height: auto;
         }
+        @apply font-sans text-4xl sm:text-7xl;
+    }
 
-        & .home-description {
-            @media screen and (orientation: landscape) {
-                margin-left: 80vh;
-                height: auto;
-            }
-            @apply font-sans mt-8
+    & .home-description {
+        @media screen and (orientation: landscape) {
+            margin-left: 80vh;
+            height: auto;
         }
+        @apply font-sans mt-8
     }
 }

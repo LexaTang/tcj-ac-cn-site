@@ -3,8 +3,9 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
-      height: {
+      backgroundSize: {
         vw: '100vw',
+        vh: '100vh',
       },
       screens: {
         'wide': {'raw': '(min-aspect-ratio: 21/9)'},

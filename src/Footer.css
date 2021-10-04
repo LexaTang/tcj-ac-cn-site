@@ -1,0 +1,7 @@
+@tailwind base;
+
+.tcj-ac {
+    & .footer {
+        padding-top: 1em;
+    }
+}
